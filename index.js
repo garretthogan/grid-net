@@ -11,6 +11,10 @@ app.get('/health', (req, res) => {
 	res.sendStatus(200);
 });
 
+app.get('/', (req, res) => {
+	res.sendStatus(200);
+});
+
 const wss = new WebSocket.Server({ noServer: true });
 
 const session = new Map();
