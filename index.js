@@ -24,7 +24,7 @@ server.on('upgrade', (req, socket, head) => {
 	});
 });
 
-const port = process.env.NODE_ENV === 'prod' ? process.env.PORT : 3000;
+const port = 3000;
 server.listen(port, () => {
 	console.log(`listening on *:${port}`);
 });
