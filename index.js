@@ -29,7 +29,7 @@ server.on('upgrade', (req, socket, head) => {
 	});
 });
 
-const port = 3000;
+const port = 80;
 server.listen(port, () => {
 	console.log(`listening on *:${port}`);
 });
