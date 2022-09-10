@@ -4,6 +4,7 @@
 	"description": "The netcode for the grid",
 	"main": "index.js",
 	"scripts": {
+		"build": "",
 		"start": "node index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
