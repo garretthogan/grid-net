@@ -36,6 +36,7 @@ module.exports = class ConnectedClient {
 		this.onMessage = this.onMessage.bind(this);
 		this.handleSubscription = this.handleSubscription.bind(this);
 		this.update = this.update.bind(this);
+		this.establishConnection = this.establishConnection.bind(this);
 
 		this.instance.on('message', this.onMessage);
 	}
